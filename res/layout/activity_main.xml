@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.9"
+         >
+    </ListView>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.1" 
+    android:orientation="horizontal">
+
+	<Button
+	    android:id="@+id/mapBtn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="Map"
+	    android:onClick="mapBtnClick" />
+
+	<Button
+	    android:id="@+id/BookmarkBtn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text=" Find Location"
+	    android:onClick="findLocationBtnClick" />
+
+	</LinearLayout>
+    
+    
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+      <com.google.android.maps.MapView
+          android:id="@+id/map"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:apiKey="01vuKcPQiEGAzZIjxy-Mu0o9vjIutJ00bH05pVg"
+                 android:clickable="true" 
+                 android:layout_weight="0.9"/> 
+	<Button  android:id="@+id/bookmarkBtn"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:onClick="bookmarkBtnClicked"
+	    android:text="Bookmark current location"
+	    android:layout_weight="0.1"/>
+</LinearLayout>
